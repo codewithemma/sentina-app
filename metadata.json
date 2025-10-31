@@ -1,0 +1,7 @@
+{
+  "name": "SENTINA: AI Perfusion Engine",
+  "description": "An AI-powered SaaS dashboard for hospital Emergency Departments to optimize patient flow, predict surges, and ensure equitable care during daily operations and crisis events.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

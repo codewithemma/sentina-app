@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SENTINA: AI Perfusion Engine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'background-primary': '#000000',
+              'background-secondary': '#1C1C1E',
+              'background-tertiary': '#2C2C2E',
+              'text-primary': '#FFFFFF',
+              'text-secondary': '#8E8E93',
+              'border-light': '#38383A',
+              'border-dark': '#2A2A2C',
+              'accent-cyan': '#00F5D4',
+              'accent-green': '#2a9b7d',
+              'accent-yellow': '#FFCC00',
+              'accent-orange': '#FF9500',
+              'accent-red': '#FF3B30',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            animation: {
+              'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            boxShadow: {
+              'cyan-glow': '0 0 15px rgba(0, 245, 212, 0.3)',
+              'red-glow': '0 0 15px rgba(255, 59, 48, 0.3)',
+            },
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-background-primary text-text-primary">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
